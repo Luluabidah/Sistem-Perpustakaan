@@ -1,0 +1,86 @@
+/*
+========================================
+SISTEM PERPUSTAKAAN
+
+Pembuat     : Lulu Abidah
+Assessor    : Ocim, S.Kom
+Tanggal     : 08 Maret 2026
+Deskripsi   : File  CSS untuk mengatur tampilan website
+========================================
+*/
+
+
+body{
+margin:0;
+font-family:Arial;
+}
+
+/* layout utama */
+.layout{
+display:flex;
+height:100vh;
+}
+
+/* sidebar */
+.sidebar{
+width:250px;
+background:#ff5fa2;
+padding:20px;
+color:white;
+}
+
+/* menu */
+.sidebar a{
+display:block;
+padding:10px;
+margin-bottom:10px;
+background:#ff7ab8;
+text-decoration:none;
+color:white;
+border-radius:5px;
+}
+
+.sidebar a:hover{
+background:#ff3f91;
+}
+
+/* main content */
+.main{
+flex:1;
+padding:30px;
+background:#f5f5f5;
+}
+
+/* table */
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+margin-top:20px;
+}
+
+table th, table td{
+padding:10px;
+border:1px solid #ddd;
+}
+
+table th{
+background:#ff7ab8;
+color:white;
+}
+
+/* form */
+input, select{
+width:100%;
+padding:8px;
+margin-bottom:10px;
+}
+
+button{
+padding:10px;
+background:#ff5fa2;
+border:none;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
